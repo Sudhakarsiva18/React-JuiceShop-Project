@@ -1,0 +1,73 @@
+const Menu = [
+  {
+    id: 1,
+    title: 'Orange Juice',
+    price: 40,
+    img: 'https://static5.depositphotos.com/1006597/439/i/950/depositphotos_4399954-stock-photo-orange-juice.jpg',
+    desc: `Orange juice is a nutrition powerhouse with naturally occurring vitamins and minerals and many antioxidants.`,
+  },
+  {
+    id: 2,
+    title: 'Apple Juice',
+    price: 45,
+    img: 'https://www.shutterstock.com/image-photo/red-apple-juice-isolated-on-260nw-81567391.jpg',
+    desc: `Every sip of this juice brings you the goodness of fruit and fibre as it has been crafted using apples`,
+  },
+  {
+    id: 3,
+    title: 'Pomegranate Juice',
+    price: 60,
+    img: 'https://www.shutterstock.com/image-photo/fresh-pomegranate-juice-isolated-on-260nw-1505025074.jpg',
+    desc: `Pomegranate Juice is rich in Vitamin C which is advantageous for your body's immunity.`,
+  },
+  {
+    id: 4,
+    title: 'Pineappla Juice',
+    price: 55,
+    img: 'https://media.istockphoto.com/id/176851361/photo/pineapple-juice.jpg?b=1&s=170667a&w=0&k=20&c=S6K11EjiA53EpSn1Ith6rJxESP-bSUlJmbb4MmkC2yc=',
+    desc: `Pineapple juice is a liquid made from pressing the natural liquid from the pulp of the pineapple`,
+  },
+  {
+    id: 5,
+    title: 'Mango Juice',
+    price: 45,
+    img: 'https://www.shutterstock.com/image-photo/mango-juice-slice-isolated-on-260nw-1095021272.jpg',
+    desc: `Mango has a sour and sweet taste, delicious taste. Extracted from fresh mango pulp, with advanced technology processing, Mango juice is actually a kind of nutritious drink for your health, using it cold for delicious drinking.`,
+  },
+  {
+    id: 6,
+    title: 'Grape Juice',
+    price: 55,
+    img: 'https://media.istockphoto.com/id/464556290/photo/glass-of-grape-juice-with-grapes-on-the-side.jpg?s=612x612&w=0&k=20&c=dTYFBpllNpJavLnUymK5tf3DQF5MacePjEnQwgpahFo=',
+    desc: `Grape juice is a good source of several important nutrients, including vitamin C, manganese, and antioxidants. It's also linked to several health benefits.`,
+  },
+  {
+    id: 7,
+    title: 'Lime Juice',
+    price: 25,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FXYIhGZJTQSBJ9w0dsOkvpu9TkHiIudQeNtd_fLaqQ&usqp=CAU&ec=48665701',
+    desc: `The liquid extract of lime fruit, notably sour and often condensed, as used especially in food preparation.`,
+  },
+  {
+    id: 8,
+    title: 'Watermelon Juice',
+    price: 30,
+    img: 'https://c0.wallpaperflare.com/preview/612/690/355/beverage-delicious-drink-fruit.jpg',
+    desc: `Watermelon is rich in an amino acid called citrulline that may help move blood through your body and can lower your blood pressure.`,
+  },
+  {
+    id: 9,
+    title: 'Papaya Juice',
+    price: 40,
+    img: 'https://previews.123rf.com/images/severija/severija1502/severija150200035/36436825-papaya-fruit-and-glass-of-juice-isolated-on-white.jpg',
+    desc: `Papayas are an excellent source of Vitamin C, Vitamin A, Vitamin B, Vitamin E, and Vitamin K. `,
+  },
+  {
+    id: 10,
+    title: 'Guava Juice',
+    price: 40,
+    img: 'https://5.imimg.com/data5/YV/JM/ZE/SELLER-8455061/guava-juice-500x500.png',
+    desc: `Guava has been known to help reduce blood pressure, promote good cholesterol, and lower bad cholesterol. Therefore, one of the key health benefits of Guava juice is that it is good for your heart`,
+  },
+];
+export default Menu;

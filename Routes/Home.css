@@ -1,0 +1,32 @@
+#mydiv {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #myimg {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  #myp {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+  }
+  #myform
+  {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+  }
