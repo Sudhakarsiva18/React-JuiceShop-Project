@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.home{
+  background-color: rgb(39, 37, 37);
+  color: aliceblue;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.juices
+{
+  background-color: rgb(39, 37, 37);
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navbar CSS */
+.navbar {
+  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-lemon-fruit-juice-pattern-graphics-picture-image_925796.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+  color: #000;
+}
+
+.nav-menu {
+  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-lemon-fruit-juice-pattern-graphics-picture-image_925796.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 450ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: lightyellow;
+  color:black;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+#head
+{
+  margin-left: 600px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:darkmagenta;
+}
+
